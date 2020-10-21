@@ -1,3 +1,57 @@
 h1 {
-  color: salmon;
+  color: lightslategrey;
+  text-align: center;
+}
+p {
+  color: lightslategray;
+  text-align: center;
+}
+img{
+  height: 200px;
+  width:200px;
+  margin: 0;
+}
+h2{
+  color: white;
+}
+.grid_container{
+  display: grid;
+  grid-template-columns:20% 20% 20% 20% 20%;
+  grid-template-rows:20% 20% 20% 20% 20%;
+}
+.city1name{
+  grid-column-start: 1
+}
+.city1pic{
+  grid-column-start: 1
+}
+.city2name{
+  grid-column-start: 2
+}
+.city2pic{
+  grid-column-start: 2
+}
+.city3name{
+  grid-column-start: 3
+}
+.city3pic{
+  grid-column-start: 3
+}
+.city4name{
+  grid-column-start: 4
+}
+.city4pic{
+  grid-column-start: 4
+}
+.city5name{
+  grid-column-start: 5
+}
+.city5pic{
+  grid-column-start: 5
+}
+.city6name{
+  grid-column-start: 6
+}
+.city6pic{
+  grid-column-start: 6
 }
