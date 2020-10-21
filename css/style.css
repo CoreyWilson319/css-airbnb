@@ -1,60 +1,64 @@
+body {
+}
+
+.grid_container {
+  display: grid;
+  grid-template-areas: "title title title"
+                      "subtitle subtitle subtitle"
+                      "destpic1 destpic2 destpic3"
+                      "bottom bottom bottom";
+}
+
 h1 {
-  color: lightslategrey;
+  grid-area: title;
+  font-size: 15px;
   text-align: center;
 }
-p {
-  color: lightslategray;
+
+h2 {
+  position: absolute;
   text-align: center;
-}
-img{
-  height: 200px;
-  width:200px;
-  margin: 0;
-}
-h2{
+  margin-top: 40cm;
+  margin-left: 50;
   color: white;
 }
-.grid_container1{
-  display: grid;
-  grid-template-columns:20% 20% 20% 20% 20%;
+
+h3 {
+  grid-area: bottom;
+  border: 1px solid darkgray;
+  background: white;
 }
-.city1name{
-  grid-column-start: 1
+
+p {
+  grid-area: subtitle;
+  text-align: center;
 }
-.city1pic{
-  grid-column-start: 1
+
+img {
+  width: 200px;
+  height: 250px;
+  /* margin: 0 auto;
+  position: absolute; */
+  
 }
-.city2name{
-  grid-column-start: 2
+
+div {
+  position: relative;
 }
-.city2pic{
-  grid-column-start: 2
+
+.left {
+  grid-area: destpic1;
 }
-.city3name{
-  grid-column-start: 3
+
+.center {
+  grid-area: destpic2;
 }
-.city3pic{
-  grid-column-start: 3
-}
-.grid_container2{
-  display: grid;
-  grid-template-columns:20% 20% 20% 20% 20%;
-}
-.city4name{
-  grid-column-start: 1
-}
-.city4pic{
-  grid-column-start: 1
-}
-.city5name{
-  grid-column-start: 2
-}
-.city5pic{
-  grid-column-start: 2
-}
-.city6name{
-  grid-column-start: 3
-}
-.city6pic{
-  grid-column-start: 3
+
+.right {
+  grid-area: destpic3;
+} 
+
+button {
+  margin: 0 auto;
+  grid-area: bottom;
 }
