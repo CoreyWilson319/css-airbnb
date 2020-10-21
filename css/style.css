@@ -14,10 +14,9 @@ img{
 h2{
   color: white;
 }
-.grid_container{
+.grid_container1{
   display: grid;
   grid-template-columns:20% 20% 20% 20% 20%;
-  grid-template-rows:20% 20% 20% 20% 20%;
 }
 .city1name{
   grid-column-start: 1
@@ -37,21 +36,25 @@ h2{
 .city3pic{
   grid-column-start: 3
 }
+.grid_container2{
+  display: grid;
+  grid-template-columns:20% 20% 20% 20% 20%;
+}
 .city4name{
-  grid-column-start: 4
+  grid-column-start: 1
 }
 .city4pic{
-  grid-column-start: 4
+  grid-column-start: 1
 }
 .city5name{
-  grid-column-start: 5
+  grid-column-start: 2
 }
 .city5pic{
-  grid-column-start: 5
+  grid-column-start: 2
 }
 .city6name{
-  grid-column-start: 6
+  grid-column-start: 3
 }
 .city6pic{
-  grid-column-start: 6
+  grid-column-start: 3
 }
